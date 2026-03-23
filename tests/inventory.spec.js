@@ -223,10 +223,10 @@ test.describe('Inventory Edge Cases', () => {
     await inventoryPage.addMultipleProductsToCart(productsToAdd);
 
     // Act & Assert
-    for (const product of productsToAdd) {
+    for (const [index, product] of productsToAdd.entries()) {
       await inventoryPage.removeProductFromCart(product);
       const cartCount = await inventoryPage.getCartCount();
-      expect(cartCount).toBe(productsToAdd.indexOf(product));
+      expect(cartCount).toBe(productsToAdd.length - index - 1);
     }
   });
 });

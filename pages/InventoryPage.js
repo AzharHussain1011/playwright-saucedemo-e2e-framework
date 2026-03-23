@@ -13,7 +13,7 @@ class InventoryPage extends BasePage {
     this.productItemLocator = page.locator('.inventory_item');
     this.productNameLocator = page.locator('.inventory_item_name');
     this.cartIconLocator = page.locator('.shopping_cart_link');
-    this.sortDropdownLocator = page.locator('[data-test="product_sort_container"]');
+    this.sortDropdownLocator = page.locator('[data-test="product_sort_container"], .product_sort_container');
     
     // String selectors for backward compatibility with BasePage methods
     this.inventoryContainer = '.inventory_container';
@@ -26,7 +26,7 @@ class InventoryPage extends BasePage {
     this.cartBadge = '.shopping_cart_badge';
     this.cartIcon = '.shopping_cart_link';
     this.appLogo = '.app_logo';
-    this.sortDropdown = '[data-test="product_sort_container"]';
+    this.sortDropdown = '[data-test="product_sort_container"], .product_sort_container';
     this.footerLink = 'a';
     this.burgerMenu = '#react-burger-menu-btn';
   }
@@ -154,8 +154,9 @@ class InventoryPage extends BasePage {
    * @param {string} sortOption - The sort option (e.g., 'az', 'za', 'lohi', 'hilo')
    */
   async sortProducts(sortOption) {
+    await this.waitForElement(this.sortDropdown, 10000);
     await this.selectDropdownByValue(this.sortDropdown, sortOption);
-    await this.page.waitForLoadState('networkidle');
+    await this.page.locator(this.productItem).first().waitFor({ state: 'visible' });
   }
 
   /**

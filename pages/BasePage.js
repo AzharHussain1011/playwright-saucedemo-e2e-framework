@@ -229,7 +229,9 @@ class BasePage {
    * @param {string} value - The value to select
    */
   async selectDropdownByValue(selector, value) {
-    await this.page.selectOption(selector, value);
+    const dropdown = this.page.locator(selector);
+    await dropdown.waitFor({ state: 'visible' });
+    await dropdown.selectOption(value);
   }
 
   /**
@@ -238,7 +240,9 @@ class BasePage {
    * @param {string} label - The label text to select
    */
   async selectDropdownByLabel(selector, label) {
-    await this.page.selectOption(selector, { label });
+    const dropdown = this.page.locator(selector);
+    await dropdown.waitFor({ state: 'visible' });
+    await dropdown.selectOption({ label });
   }
 
   /**
