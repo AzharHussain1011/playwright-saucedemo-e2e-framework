@@ -1,72 +1,284 @@
-<testsuites id="" name="" tests="33" failures="0" skipped="0" errors="0" time="63.71005999999982">
-<testsuite name="checkout.spec.js" timestamp="2026-03-23T06:03:37.431Z" hostname="chromium" tests="18" failures="0" skipped="0" time="128.411" errors="0">
-<testcase name="Checkout Flow › TC-201: Complete checkout with valid data" classname="checkout.spec.js" time="5.984">
+<testsuites id="" name="" tests="57" failures="4" skipped="0" errors="0" time="92.70541300000001">
+<testsuite name="checkout.spec.js" timestamp="2026-03-23T07:01:47.731Z" hostname="chromium" tests="18" failures="0" skipped="0" time="111.359" errors="0">
+<testcase name="Checkout Flow › TC-201: Complete checkout with valid data" classname="checkout.spec.js" time="12.827">
 </testcase>
-<testcase name="Checkout Flow › TC-202: Order confirmation message displayed" classname="checkout.spec.js" time="7.598">
+<testcase name="Checkout Flow › TC-202: Order confirmation message displayed" classname="checkout.spec.js" time="12.773">
 </testcase>
-<testcase name="Checkout Flow › TC-203: Summary page shows order items" classname="checkout.spec.js" time="7.639">
+<testcase name="Checkout Flow › TC-203: Summary page shows order items" classname="checkout.spec.js" time="12.599">
 </testcase>
-<testcase name="Checkout Flow › TC-204: Summary page displays total price" classname="checkout.spec.js" time="8.101">
+<testcase name="Checkout Flow › TC-204: Summary page displays total price" classname="checkout.spec.js" time="13.171">
 </testcase>
-<testcase name="Checkout Flow › TC-205: Summary page displays tax" classname="checkout.spec.js" time="6.526">
+<testcase name="Checkout Flow › TC-205: Summary page displays tax" classname="checkout.spec.js" time="4.393">
 </testcase>
-<testcase name="Checkout Flow › TC-206: Missing first name validation" classname="checkout.spec.js" time="4.976">
+<testcase name="Checkout Flow › TC-206: Missing first name validation" classname="checkout.spec.js" time="4.437">
 </testcase>
-<testcase name="Checkout Flow › TC-207: Missing last name validation" classname="checkout.spec.js" time="10.617">
+<testcase name="Checkout Flow › TC-207: Missing last name validation" classname="checkout.spec.js" time="4.386">
 </testcase>
-<testcase name="Checkout Flow › TC-208: Missing postal code validation" classname="checkout.spec.js" time="9.198">
+<testcase name="Checkout Flow › TC-208: Missing postal code validation" classname="checkout.spec.js" time="4.367">
 </testcase>
-<testcase name="Checkout Flow › TC-209: Cancel checkout returns to cart" classname="checkout.spec.js" time="11.001">
+<testcase name="Checkout Flow › TC-209: Cancel checkout returns to cart" classname="checkout.spec.js" time="4.188">
 </testcase>
-<testcase name="Checkout Flow › TC-210: Checkout form fields are fillable" classname="checkout.spec.js" time="6.635">
+<testcase name="Checkout Flow › TC-210: Checkout form fields are fillable" classname="checkout.spec.js" time="4.139">
 </testcase>
-<testcase name="Cart to Checkout › TC-211: Checkout button available with items in cart" classname="checkout.spec.js" time="5.017">
+<testcase name="Cart to Checkout › TC-211: Checkout button available with items in cart" classname="checkout.spec.js" time="3.99">
 </testcase>
-<testcase name="Cart to Checkout › TC-212: Checkout button disabled when cart is empty" classname="checkout.spec.js" time="7.079">
+<testcase name="Cart to Checkout › TC-212: Checkout button disabled when cart is empty" classname="checkout.spec.js" time="4.119">
 </testcase>
-<testcase name="Cart to Checkout › TC-213: Continue shopping button returns to inventory" classname="checkout.spec.js" time="5.872">
+<testcase name="Cart to Checkout › TC-213: Continue shopping button returns to inventory" classname="checkout.spec.js" time="4.434">
 </testcase>
-<testcase name="Cart to Checkout › TC-214: Back to products from confirmation page" classname="checkout.spec.js" time="6.625">
+<testcase name="Cart to Checkout › TC-214: Back to products from confirmation page" classname="checkout.spec.js" time="4.632">
 </testcase>
-<testcase name="Multiple Items Checkout › TC-215: Checkout with multiple items" classname="checkout.spec.js" time="5.631">
+<testcase name="Multiple Items Checkout › TC-215: Checkout with multiple items" classname="checkout.spec.js" time="4.403">
 </testcase>
-<testcase name="Multiple Items Checkout › TC-216: Calculate total with multiple items" classname="checkout.spec.js" time="7.085">
+<testcase name="Multiple Items Checkout › TC-216: Calculate total with multiple items" classname="checkout.spec.js" time="4.275">
 </testcase>
-<testcase name="Checkout Edge Cases › TC-217: Special characters in name fields" classname="checkout.spec.js" time="8.747">
+<testcase name="Checkout Edge Cases › TC-217: Special characters in name fields" classname="checkout.spec.js" time="4.109">
 </testcase>
-<testcase name="Checkout Edge Cases › TC-218: Very long postal code" classname="checkout.spec.js" time="4.08">
+<testcase name="Checkout Edge Cases › TC-218: Very long postal code" classname="checkout.spec.js" time="4.117">
 </testcase>
 </testsuite>
-<testsuite name="login.spec.js" timestamp="2026-03-23T06:03:37.431Z" hostname="chromium" tests="15" failures="0" skipped="0" time="95.499" errors="0">
-<testcase name="Login Functionality › TC-001: Successful login with valid credentials" classname="login.spec.js" time="5.225">
+<testsuite name="e2e.spec.js" timestamp="2026-03-23T07:01:47.731Z" hostname="chromium" tests="8" failures="1" skipped="0" time="49.154" errors="0">
+<testcase name="Complete User Journey › TC-301: Complete purchase flow - Login to Order Completion" classname="e2e.spec.js" time="4.652">
 </testcase>
-<testcase name="Login Functionality › TC-002: Failed login with invalid password" classname="login.spec.js" time="8.556">
+<testcase name="Complete User Journey › TC-302: Browse products without purchase" classname="e2e.spec.js" time="4.122">
 </testcase>
-<testcase name="Login Functionality › TC-003: Failed login with non-existent user" classname="login.spec.js" time="8.173">
+<testcase name="Complete User Journey › TC-303: Add to cart, modify, and checkout" classname="e2e.spec.js" time="4.526">
 </testcase>
-<testcase name="Login Functionality › TC-004: Locked out user cannot login" classname="login.spec.js" time="8.405">
+<testcase name="Complete User Journey › TC-304: Sort products and add to cart" classname="e2e.spec.js" time="14.964">
+<failure message="e2e.spec.js:149:7 TC-304: Sort products and add to cart" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.js:149:7 › Complete User Journey › TC-304: Sort products and add to cart ───
+
+    TimeoutError: page.selectOption: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for locator('[data-test="product_sort_container"]')
+
+
+       at ..\pages\BasePage.js:232
+
+      230 |    */
+      231 |   async selectDropdownByValue(selector, value) {
+    > 232 |     await this.page.selectOption(selector, value);
+          |                     ^
+      233 |   }
+      234 |
+      235 |   /**
+        at InventoryPage.selectDropdownByValue (C:\Pract_Playwright_MCP\pages\BasePage.js:232:21)
+        at InventoryPage.sortProducts (C:\Pract_Playwright_MCP\pages\InventoryPage.js:157:16)
+        at C:\Pract_Playwright_MCP\tests\e2e.spec.js:162:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\error-context.md]]
+]]>
+</system-out>
 </testcase>
-<testcase name="Login Functionality › TC-005: Error message cleared on retry" classname="login.spec.js" time="10.578">
+<testcase name="Complete User Journey › TC-305: Failed login and then successful login" classname="e2e.spec.js" time="6.681">
 </testcase>
-<testcase name="Login Functionality › TC-006: Login button functionality" classname="login.spec.js" time="1.56">
+<testcase name="Complete User Journey › TC-306: High-volume cart and checkout" classname="e2e.spec.js" time="4.202">
 </testcase>
-<testcase name="Login Functionality › TC-007: Page elements are visible on load" classname="login.spec.js" time="3.19">
+<testcase name="Complete User Journey › TC-307: Locked user cannot login" classname="e2e.spec.js" time="6.461">
 </testcase>
-<testcase name="Login Functionality › TC-008: Login page title is correct" classname="login.spec.js" time="3.407">
+<testcase name="Complete User Journey › TC-308: Cart persistence across navigation" classname="e2e.spec.js" time="3.546">
 </testcase>
-<testcase name="Login Functionality › TC-009: Multiple failed logins" classname="login.spec.js" time="12.829">
+</testsuite>
+<testsuite name="inventory.spec.js" timestamp="2026-03-23T07:01:47.731Z" hostname="chromium" tests="16" failures="3" skipped="0" time="90.35" errors="0">
+<testcase name="Inventory Page › TC-101: Inventory page displays all products" classname="inventory.spec.js" time="3.669">
 </testcase>
-<testcase name="Login Functionality › TC-010: Performance glitch user login" classname="login.spec.js" time="11.815">
+<testcase name="Inventory Page › TC-102: Product names are displayed correctly" classname="inventory.spec.js" time="3.751">
 </testcase>
-<testcase name="Login Edge Cases › TC-011: Empty username" classname="login.spec.js" time="2.153">
+<testcase name="Inventory Page › TC-103: Add single product to cart" classname="inventory.spec.js" time="4.18">
 </testcase>
-<testcase name="Login Edge Cases › TC-012: Empty password" classname="login.spec.js" time="10.531">
+<testcase name="Inventory Page › TC-104: Add multiple products to cart" classname="inventory.spec.js" time="3.766">
 </testcase>
-<testcase name="Login Edge Cases › TC-013: Special characters in password field" classname="login.spec.js" time="2.24">
+<testcase name="Inventory Page › TC-105: Remove product from cart" classname="inventory.spec.js" time="3.988">
 </testcase>
-<testcase name="Login Edge Cases › TC-014: SQL injection attempt in username" classname="login.spec.js" time="4.594">
+<testcase name="Inventory Page › TC-106: Cart count reflects correct number of items" classname="inventory.spec.js" time="4.112">
 </testcase>
-<testcase name="Login Edge Cases › TC-015: Very long input in username field" classname="login.spec.js" time="2.243">
+<testcase name="Inventory Page › TC-107: Sort products A to Z" classname="inventory.spec.js" time="16.007">
+<failure message="inventory.spec.js:99:7 TC-107: Sort products A to Z" type="FAILURE">
+<![CDATA[  [chromium] › inventory.spec.js:99:7 › Inventory Page › TC-107: Sort products A to Z ──────────────
+
+    TimeoutError: page.selectOption: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for locator('[data-test="product_sort_container"]')
+
+
+       at ..\pages\BasePage.js:232
+
+      230 |    */
+      231 |   async selectDropdownByValue(selector, value) {
+    > 232 |     await this.page.selectOption(selector, value);
+          |                     ^
+      233 |   }
+      234 |
+      235 |   /**
+        at InventoryPage.selectDropdownByValue (C:\Pract_Playwright_MCP\pages\BasePage.js:232:21)
+        at InventoryPage.sortProducts (C:\Pract_Playwright_MCP\pages\InventoryPage.js:157:16)
+        at C:\Pract_Playwright_MCP\tests\inventory.spec.js:101:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Inventory Page › TC-108: Sort products Z to A" classname="inventory.spec.js" time="16.468">
+<failure message="inventory.spec.js:109:7 TC-108: Sort products Z to A" type="FAILURE">
+<![CDATA[  [chromium] › inventory.spec.js:109:7 › Inventory Page › TC-108: Sort products Z to A ─────────────
+
+    TimeoutError: page.selectOption: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for locator('[data-test="product_sort_container"]')
+
+
+       at ..\pages\BasePage.js:232
+
+      230 |    */
+      231 |   async selectDropdownByValue(selector, value) {
+    > 232 |     await this.page.selectOption(selector, value);
+          |                     ^
+      233 |   }
+      234 |
+      235 |   /**
+        at InventoryPage.selectDropdownByValue (C:\Pract_Playwright_MCP\pages\BasePage.js:232:21)
+        at InventoryPage.sortProducts (C:\Pract_Playwright_MCP\pages\InventoryPage.js:157:16)
+        at C:\Pract_Playwright_MCP\tests\inventory.spec.js:111:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Inventory Page › TC-109: Product prices are displayed" classname="inventory.spec.js" time="4.084">
+</testcase>
+<testcase name="Inventory Page › TC-110: Product descriptions are visible" classname="inventory.spec.js" time="3.806">
+</testcase>
+<testcase name="Cart Navigation › TC-111: Cart icon navigation" classname="inventory.spec.js" time="3.884">
+</testcase>
+<testcase name="Cart Navigation › TC-112: Empty cart shows zero items" classname="inventory.spec.js" time="4.986">
+</testcase>
+<testcase name="Cart Navigation › TC-113: Cart displays added items" classname="inventory.spec.js" time="3.659">
+</testcase>
+<testcase name="Inventory Edge Cases › TC-114: Add and remove same product multiple times" classname="inventory.spec.js" time="4.632">
+</testcase>
+<testcase name="Inventory Edge Cases › TC-115: Add all products and verify count" classname="inventory.spec.js" time="4.709">
+</testcase>
+<testcase name="Inventory Edge Cases › TC-116: Remove all products one by one" classname="inventory.spec.js" time="4.649">
+<failure message="inventory.spec.js:220:7 TC-116: Remove all products one by one" type="FAILURE">
+<![CDATA[  [chromium] › inventory.spec.js:220:7 › Inventory Edge Cases › TC-116: Remove all products one by one 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 2
+
+      227 |       await inventoryPage.removeProductFromCart(product);
+      228 |       const cartCount = await inventoryPage.getCartCount();
+    > 229 |       expect(cartCount).toBe(productsToAdd.indexOf(product));
+          |                         ^
+      230 |     }
+      231 |   });
+      232 | });
+        at C:\Pract_Playwright_MCP\tests\inventory.spec.js:229:25
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.spec.js" timestamp="2026-03-23T07:01:47.731Z" hostname="chromium" tests="15" failures="0" skipped="0" time="64.624" errors="0">
+<testcase name="Login Functionality › TC-001: Successful login with valid credentials" classname="login.spec.js" time="4.559">
+</testcase>
+<testcase name="Login Functionality › TC-002: Failed login with invalid password" classname="login.spec.js" time="7.749">
+</testcase>
+<testcase name="Login Functionality › TC-003: Failed login with non-existent user" classname="login.spec.js" time="7.782">
+</testcase>
+<testcase name="Login Functionality › TC-004: Locked out user cannot login" classname="login.spec.js" time="7.191">
+</testcase>
+<testcase name="Login Functionality › TC-005: Error message cleared on retry" classname="login.spec.js" time="7.768">
+</testcase>
+<testcase name="Login Functionality › TC-006: Login button functionality" classname="login.spec.js" time="1.551">
+</testcase>
+<testcase name="Login Functionality › TC-007: Page elements are visible on load" classname="login.spec.js" time="1.34">
+</testcase>
+<testcase name="Login Functionality › TC-008: Login page title is correct" classname="login.spec.js" time="1.374">
+</testcase>
+<testcase name="Login Functionality › TC-009: Multiple failed logins" classname="login.spec.js" time="7.937">
+</testcase>
+<testcase name="Login Functionality › TC-010: Performance glitch user login" classname="login.spec.js" time="9.708">
+</testcase>
+<testcase name="Login Edge Cases › TC-011: Empty username" classname="login.spec.js" time="1.536">
+</testcase>
+<testcase name="Login Edge Cases › TC-012: Empty password" classname="login.spec.js" time="1.735">
+</testcase>
+<testcase name="Login Edge Cases › TC-013: Special characters in password field" classname="login.spec.js" time="1.453">
+</testcase>
+<testcase name="Login Edge Cases › TC-014: SQL injection attempt in username" classname="login.spec.js" time="1.462">
+</testcase>
+<testcase name="Login Edge Cases › TC-015: Very long input in username field" classname="login.spec.js" time="1.479">
 </testcase>
 </testsuite>
 </testsuites>

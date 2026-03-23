@@ -30,38 +30,6 @@
           "**/*.spec.js"
         ],
         "timeout": 30000
-      },
-      {
-        "outputDir": "C:/Pract_Playwright_MCP/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "metadata": {
-          "actualWorkers": 4
-        },
-        "id": "firefox",
-        "name": "firefox",
-        "testDir": "C:/Pract_Playwright_MCP/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.spec.js"
-        ],
-        "timeout": 30000
-      },
-      {
-        "outputDir": "C:/Pract_Playwright_MCP/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "metadata": {
-          "actualWorkers": 4
-        },
-        "id": "webkit",
-        "name": "webkit",
-        "testDir": "C:/Pract_Playwright_MCP/tests",
-        "testIgnore": [],
-        "testMatch": [
-          "**/*.spec.js"
-        ],
-        "timeout": 30000
       }
     ],
     "quiet": false,
@@ -97,7 +65,7 @@
     "shard": null,
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.58.2",
     "workers": 4,
     "webServer": null
@@ -129,15 +97,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5984,
+                      "duration": 12827,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:40.766Z",
+                      "startTime": "2026-03-23T07:01:51.910Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -163,15 +131,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
+                      "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 7598,
+                      "duration": 12773,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:40.818Z",
+                      "startTime": "2026-03-23T07:01:52.009Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -197,15 +165,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 73,
+                      "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 7639,
+                      "duration": 12599,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:40.822Z",
+                      "startTime": "2026-03-23T07:01:52.057Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -231,15 +199,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
+                      "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 8101,
+                      "duration": 13171,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:40.868Z",
+                      "startTime": "2026-03-23T07:01:51.948Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -265,15 +233,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 6526,
+                      "duration": 4393,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:47.106Z",
+                      "startTime": "2026-03-23T07:02:05.233Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -299,15 +267,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
+                      "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 4976,
+                      "duration": 4437,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:48.880Z",
+                      "startTime": "2026-03-23T07:02:05.297Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -333,15 +301,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 73,
-                      "parallelIndex": 2,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10617,
+                      "duration": 4386,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:48.951Z",
+                      "startTime": "2026-03-23T07:02:05.332Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -367,15 +335,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
+                      "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 9198,
+                      "duration": 4367,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:49.528Z",
+                      "startTime": "2026-03-23T07:02:05.626Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -401,15 +369,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
-                      "parallelIndex": 0,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 11001,
+                      "duration": 4188,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:53.658Z",
+                      "startTime": "2026-03-23T07:02:09.669Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -435,15 +403,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6635,
+                      "duration": 4139,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:53.890Z",
+                      "startTime": "2026-03-23T07:02:09.766Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -477,15 +445,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 5017,
+                      "duration": 3990,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:58.752Z",
+                      "startTime": "2026-03-23T07:02:09.781Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -511,15 +479,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 73,
-                      "parallelIndex": 2,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7079,
+                      "duration": 4119,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:03:59.596Z",
+                      "startTime": "2026-03-23T07:02:10.051Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -545,15 +513,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
+                      "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 5872,
+                      "duration": 4434,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:00.549Z",
+                      "startTime": "2026-03-23T07:02:13.807Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -579,15 +547,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
-                      "parallelIndex": 3,
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 6625,
+                      "duration": 4632,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:03.822Z",
+                      "startTime": "2026-03-23T07:02:13.897Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -621,15 +589,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5631,
+                      "duration": 4403,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:04.691Z",
+                      "startTime": "2026-03-23T07:02:13.951Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -655,15 +623,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 7085,
+                      "duration": 4275,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:06.441Z",
+                      "startTime": "2026-03-23T07:02:14.203Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -697,15 +665,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 73,
-                      "parallelIndex": 2,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 8747,
+                      "duration": 4109,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:06.698Z",
+                      "startTime": "2026-03-23T07:02:18.283Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -731,15 +699,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
+                      "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4080,
+                      "duration": 4117,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:10.355Z",
+                      "startTime": "2026-03-23T07:02:18.392Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -750,6 +718,1032 @@
               "id": "24e4b3ac21f7f473b7e5-de0a5ef35886f13ce6bc",
               "file": "checkout.spec.js",
               "line": 300,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e.spec.js",
+      "file": "e2e.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Complete User Journey",
+          "file": "e2e.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-301: Complete purchase flow - Login to Order Completion",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4652,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:18.522Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-efcdf0f394d37ccc018e",
+              "file": "e2e.spec.js",
+              "line": 8,
+              "column": 7
+            },
+            {
+              "title": "TC-302: Browse products without purchase",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4122,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:18.588Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-2287a1b81f560a7d369a",
+              "file": "e2e.spec.js",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "TC-303: Add to cart, modify, and checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4526,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:22.452Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-1dd82490ef0ec8546ead",
+              "file": "e2e.spec.js",
+              "line": 92,
+              "column": 7
+            },
+            {
+              "title": "TC-304: Sort products and add to cart",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 14964,
+                      "error": {
+                        "message": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n",
+                        "stack": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n\n    at InventoryPage.selectDropdownByValue (C:\\Pract_Playwright_MCP\\pages\\BasePage.js:232:21)\n    at InventoryPage.sortProducts (C:\\Pract_Playwright_MCP\\pages\\InventoryPage.js:157:16)\n    at C:\\Pract_Playwright_MCP\\tests\\e2e.spec.js:162:25",
+                        "location": {
+                          "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                          "column": 21,
+                          "line": 232
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\BasePage.js:232\n\n\u001b[0m \u001b[90m 230 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 231 |\u001b[39m   \u001b[36masync\u001b[39m selectDropdownByValue(selector\u001b[33m,\u001b[39m value) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mselectOption(selector\u001b[33m,\u001b[39m value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\n \u001b[90m 235 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                            "column": 21,
+                            "line": 232
+                          },
+                          "message": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\BasePage.js:232\n\n\u001b[0m \u001b[90m 230 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 231 |\u001b[39m   \u001b[36masync\u001b[39m selectDropdownByValue(selector\u001b[33m,\u001b[39m value) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mselectOption(selector\u001b[33m,\u001b[39m value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\n \u001b[90m 235 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m\n\u001b[2m    at InventoryPage.selectDropdownByValue (C:\\Pract_Playwright_MCP\\pages\\BasePage.js:232:21)\u001b[22m\n\u001b[2m    at InventoryPage.sortProducts (C:\\Pract_Playwright_MCP\\pages\\InventoryPage.js:157:16)\u001b[22m\n\u001b[2m    at C:\\Pract_Playwright_MCP\\tests\\e2e.spec.js:162:25\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:22.565Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\e2e-Complete-User-Journey--e5286-rt-products-and-add-to-cart-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                        "column": 21,
+                        "line": 232
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-64a3de835a0744273e21",
+              "file": "e2e.spec.js",
+              "line": 149,
+              "column": 7
+            },
+            {
+              "title": "TC-305: Failed login and then successful login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 6681,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:22.747Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-9edd52579c4d41cbe00e",
+              "file": "e2e.spec.js",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "TC-306: High-volume cart and checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4202,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:23.203Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-03075fbcf20ab2f23bd2",
+              "file": "e2e.spec.js",
+              "line": 202,
+              "column": 7
+            },
+            {
+              "title": "TC-307: Locked user cannot login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 6461,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:27.014Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-82dcc082b16274fc8e19",
+              "file": "e2e.spec.js",
+              "line": 257,
+              "column": 7
+            },
+            {
+              "title": "TC-308: Cart persistence across navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3546,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:27.431Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "616cc0f313d283bb66d2-1096c0e0249000e4e26e",
+              "file": "e2e.spec.js",
+              "line": 273,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "inventory.spec.js",
+      "file": "inventory.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Inventory Page",
+          "file": "inventory.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-101: Inventory page displays all products",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3669,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:29.462Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-00bd3021f1bd088af65a",
+              "file": "inventory.spec.js",
+              "line": 15,
+              "column": 7
+            },
+            {
+              "title": "TC-102: Product names are displayed correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3751,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:31.003Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-2fad60fef5f0ef1d91a5",
+              "file": "inventory.spec.js",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "TC-103: Add single product to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 4180,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:33.154Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-6fdba9160327cbe3be39",
+              "file": "inventory.spec.js",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "TC-104: Add multiple products to cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3766,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:33.508Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-b5bb3d4ad45716601cb6",
+              "file": "inventory.spec.js",
+              "line": 47,
+              "column": 7
+            },
+            {
+              "title": "TC-105: Remove product from cart",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3988,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:34.780Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-7553f9101cb79874e4cd",
+              "file": "inventory.spec.js",
+              "line": 63,
+              "column": 7
+            },
+            {
+              "title": "TC-106: Cart count reflects correct number of items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4112,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:37.298Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-48cac1aab7bd955cd722",
+              "file": "inventory.spec.js",
+              "line": 79,
+              "column": 7
+            },
+            {
+              "title": "TC-107: Sort products A to Z",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 16007,
+                      "error": {
+                        "message": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n",
+                        "stack": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n\n    at InventoryPage.selectDropdownByValue (C:\\Pract_Playwright_MCP\\pages\\BasePage.js:232:21)\n    at InventoryPage.sortProducts (C:\\Pract_Playwright_MCP\\pages\\InventoryPage.js:157:16)\n    at C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js:101:25",
+                        "location": {
+                          "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                          "column": 21,
+                          "line": 232
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\BasePage.js:232\n\n\u001b[0m \u001b[90m 230 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 231 |\u001b[39m   \u001b[36masync\u001b[39m selectDropdownByValue(selector\u001b[33m,\u001b[39m value) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mselectOption(selector\u001b[33m,\u001b[39m value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\n \u001b[90m 235 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                            "column": 21,
+                            "line": 232
+                          },
+                          "message": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\BasePage.js:232\n\n\u001b[0m \u001b[90m 230 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 231 |\u001b[39m   \u001b[36masync\u001b[39m selectDropdownByValue(selector\u001b[33m,\u001b[39m value) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mselectOption(selector\u001b[33m,\u001b[39m value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\n \u001b[90m 235 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m\n\u001b[2m    at InventoryPage.selectDropdownByValue (C:\\Pract_Playwright_MCP\\pages\\BasePage.js:232:21)\u001b[22m\n\u001b[2m    at InventoryPage.sortProducts (C:\\Pract_Playwright_MCP\\pages\\InventoryPage.js:157:16)\u001b[22m\n\u001b[2m    at C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js:101:25\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:37.367Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Page-TC-107-Sort-products-A-to-Z-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                        "column": 21,
+                        "line": 232
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-d3dbdc36c8b51e881cfa",
+              "file": "inventory.spec.js",
+              "line": 99,
+              "column": 7
+            },
+            {
+              "title": "TC-108: Sort products Z to A",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16468,
+                      "error": {
+                        "message": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n",
+                        "stack": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n\n    at InventoryPage.selectDropdownByValue (C:\\Pract_Playwright_MCP\\pages\\BasePage.js:232:21)\n    at InventoryPage.sortProducts (C:\\Pract_Playwright_MCP\\pages\\InventoryPage.js:157:16)\n    at C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js:111:25",
+                        "location": {
+                          "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                          "column": 21,
+                          "line": 232
+                        },
+                        "snippet": "\u001b[90m   at \u001b[39m..\\pages\\BasePage.js:232\n\n\u001b[0m \u001b[90m 230 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 231 |\u001b[39m   \u001b[36masync\u001b[39m selectDropdownByValue(selector\u001b[33m,\u001b[39m value) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mselectOption(selector\u001b[33m,\u001b[39m value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\n \u001b[90m 235 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                            "column": 21,
+                            "line": 232
+                          },
+                          "message": "TimeoutError: page.selectOption: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-test=\"product_sort_container\"]')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\BasePage.js:232\n\n\u001b[0m \u001b[90m 230 |\u001b[39m \u001b[90m   */\u001b[39m\n \u001b[90m 231 |\u001b[39m   \u001b[36masync\u001b[39m selectDropdownByValue(selector\u001b[33m,\u001b[39m value) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 232 |\u001b[39m     \u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mselectOption(selector\u001b[33m,\u001b[39m value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 233 |\u001b[39m   }\n \u001b[90m 234 |\u001b[39m\n \u001b[90m 235 |\u001b[39m   \u001b[90m/**\u001b[39m\u001b[0m\n\u001b[2m    at InventoryPage.selectDropdownByValue (C:\\Pract_Playwright_MCP\\pages\\BasePage.js:232:21)\u001b[22m\n\u001b[2m    at InventoryPage.sortProducts (C:\\Pract_Playwright_MCP\\pages\\InventoryPage.js:157:16)\u001b[22m\n\u001b[2m    at C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js:111:25\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:41.745Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Page-TC-108-Sort-products-Z-to-A-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Pract_Playwright_MCP\\pages\\BasePage.js",
+                        "column": 21,
+                        "line": 232
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-cb17718504e64dda3d0e",
+              "file": "inventory.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "TC-109: Product prices are displayed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4084,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:38.801Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-fa70b2012e146726c0db",
+              "file": "inventory.spec.js",
+              "line": 119,
+              "column": 7
+            },
+            {
+              "title": "TC-110: Product descriptions are visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 3806,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:41.437Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-25d79c6ec2b0502b16ed",
+              "file": "inventory.spec.js",
+              "line": 128,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Cart Navigation",
+          "file": "inventory.spec.js",
+          "line": 139,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-111: Cart icon navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3884,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:42.919Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-2f5bb9d777e672dd110a",
+              "file": "inventory.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "TC-112: Empty cart shows zero items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4986,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:45.266Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-b7f0c16143e1591d2678",
+              "file": "inventory.spec.js",
+              "line": 157,
+              "column": 7
+            },
+            {
+              "title": "TC-113: Cart displays added items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3659,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:46.829Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-10a45abd687a4b8dfff6",
+              "file": "inventory.spec.js",
+              "line": 165,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Inventory Edge Cases",
+          "file": "inventory.spec.js",
+          "line": 180,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-114: Add and remove same product multiple times",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4632,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:50.284Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-aba066c0ecd7af49f928",
+              "file": "inventory.spec.js",
+              "line": 187,
+              "column": 7
+            },
+            {
+              "title": "TC-115: Add all products and verify count",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 4709,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:02:50.517Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-addb038d872f2e3f5f03",
+              "file": "inventory.spec.js",
+              "line": 201,
+              "column": 7
+            },
+            {
+              "title": "TC-116: Remove all products one by one",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 4649,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js:229:25",
+                        "location": {
+                          "file": "C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js",
+                          "column": 25,
+                          "line": 229
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 227 |\u001b[39m       \u001b[36mawait\u001b[39m inventoryPage\u001b[33m.\u001b[39mremoveProductFromCart(product)\u001b[33m;\u001b[39m\n \u001b[90m 228 |\u001b[39m       \u001b[36mconst\u001b[39m cartCount \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m inventoryPage\u001b[33m.\u001b[39mgetCartCount()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 229 |\u001b[39m       expect(cartCount)\u001b[33m.\u001b[39mtoBe(productsToAdd\u001b[33m.\u001b[39mindexOf(product))\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 230 |\u001b[39m     }\n \u001b[90m 231 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 232 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js",
+                            "column": 25,
+                            "line": 229
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n\u001b[0m \u001b[90m 227 |\u001b[39m       \u001b[36mawait\u001b[39m inventoryPage\u001b[33m.\u001b[39mremoveProductFromCart(product)\u001b[33m;\u001b[39m\n \u001b[90m 228 |\u001b[39m       \u001b[36mconst\u001b[39m cartCount \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m inventoryPage\u001b[33m.\u001b[39mgetCartCount()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 229 |\u001b[39m       expect(cartCount)\u001b[33m.\u001b[39mtoBe(productsToAdd\u001b[33m.\u001b[39mindexOf(product))\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 230 |\u001b[39m     }\n \u001b[90m 231 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 232 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js:229:25\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-23T07:03:00.072Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Pract_Playwright_MCP\\test-results\\inventory-Inventory-Edge-C-19871-ove-all-products-one-by-one-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Pract_Playwright_MCP\\tests\\inventory.spec.js",
+                        "column": 25,
+                        "line": 229
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "37e96d6df1999c5cdad2-9a3268d4c613bffbc718",
+              "file": "inventory.spec.js",
+              "line": 220,
               "column": 7
             }
           ]
@@ -782,15 +1776,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
-                      "parallelIndex": 3,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 5225,
+                      "duration": 4559,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:10.482Z",
+                      "startTime": "2026-03-23T07:02:54.983Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -816,15 +1810,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
-                      "parallelIndex": 1,
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 8556,
+                      "duration": 7749,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:13.560Z",
+                      "startTime": "2026-03-23T07:02:55.296Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -850,15 +1844,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8173,
+                      "duration": 7782,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:14.473Z",
+                      "startTime": "2026-03-23T07:03:03.140Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -884,15 +1878,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 73,
-                      "parallelIndex": 2,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 8405,
+                      "duration": 7191,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:15.485Z",
+                      "startTime": "2026-03-23T07:02:59.604Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -918,15 +1912,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
+                      "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 10578,
+                      "duration": 7768,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:15.724Z",
+                      "startTime": "2026-03-23T07:03:03.105Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -952,15 +1946,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
-                      "parallelIndex": 1,
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 1560,
+                      "duration": 1551,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:22.132Z",
+                      "startTime": "2026-03-23T07:03:08.416Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -986,15 +1980,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
-                      "parallelIndex": 0,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3190,
+                      "duration": 1340,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:22.665Z",
+                      "startTime": "2026-03-23T07:03:06.846Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1020,15 +2014,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
+                      "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 3407,
+                      "duration": 1374,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:23.712Z",
+                      "startTime": "2026-03-23T07:03:08.244Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1054,15 +2048,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 73,
-                      "parallelIndex": 2,
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 12829,
+                      "duration": 7937,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:23.907Z",
+                      "startTime": "2026-03-23T07:03:09.682Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1088,15 +2082,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 71,
-                      "parallelIndex": 0,
+                      "workerIndex": 7,
+                      "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 11815,
+                      "duration": 9708,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:25.872Z",
+                      "startTime": "2026-03-23T07:03:10.388Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1130,15 +2124,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
+                      "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2153,
+                      "duration": 1536,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:26.320Z",
+                      "startTime": "2026-03-23T07:03:10.945Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1164,15 +2158,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 72,
-                      "parallelIndex": 1,
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10531,
+                      "duration": 1735,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:27.137Z",
+                      "startTime": "2026-03-23T07:03:11.402Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1198,15 +2192,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
+                      "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2240,
+                      "duration": 1453,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:28.487Z",
+                      "startTime": "2026-03-23T07:03:12.561Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1232,15 +2226,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
-                      "parallelIndex": 3,
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4594,
+                      "duration": 1462,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:30.744Z",
+                      "startTime": "2026-03-23T07:03:13.225Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1266,15 +2260,15 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 74,
+                      "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "passed",
-                      "duration": 2243,
+                      "duration": 1479,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-23T06:04:35.354Z",
+                      "startTime": "2026-03-23T07:03:14.074Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1294,11 +2288,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-23T06:03:34.096Z",
-    "duration": 63710.05999999982,
-    "expected": 33,
+    "startTime": "2026-03-23T07:01:47.575Z",
+    "duration": 92705.413,
+    "expected": 53,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 4,
     "flaky": 0
   }
 }
